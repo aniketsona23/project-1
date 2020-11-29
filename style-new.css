@@ -1,0 +1,259 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(253, 250, 250);
+}
+
+.logo {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    color: rgb(22, 19, 19);
+    width: 1920px;
+    height: 70px;
+}
+
+.logtext {
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px 40px;
+    font-size: 40px;
+}
+
+.links {
+    margin-left: 305px;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.learn {
+    transition: all 400ms;
+    border-left: 2px solid black;
+    color: rgb(15, 13, 13);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 27px 0px;
+    padding: 0px 20px;
+    height: 35px;
+}
+
+.learn:hover {
+    font-size: 35px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1551522435-a13afa10f103?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: rgba(27, 18, 18, 0.623);
+}
+
+.welcome {
+    font-weight: bolder;
+    color: rgb(245, 241, 241);
+    margin-top: 20%;
+    position: relative;
+    font-size: 50px;
+    width: 700px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.work {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.story {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;
+    transition: all 500ms;
+}
+
+.story:hover {
+    padding: 15px 20px;
+    font-size: 35px;
+    background-color: white;
+    color: black;
+}
+
+#line {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline 1px;
+}
+
+.ourtitle {
+    margin: 150px 0px;
+    font-style: oblique;
+    font-size: 80px;
+    font-weight: 700;
+    width: 535px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 250px;
+}
+
+.overlay2 {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 100%;
+}
+
+.us {
+    display: flex;
+    flex-direction: column;
+}
+
+.words {
+    color: rgb(17, 11, 11);
+    width: 100%;
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+}
+
+#found {
+    margin-top: 0px;
+    background-image: url(https://images.unsplash.com/photo-1568236700632-c0cfc08f486a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1074&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.founder {
+    background-color: rgba(0, 0, 0, 0.692);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 50px;
+    padding: 40px;
+    width: 50%;
+    height: 86vh;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+
+/* .line {
+    width: 100%;
+    min-height: 10px;
+    background-color: white;
+} */
+
+.ab {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: 'Exo 2', sans-serif;
+    height: 40px;
+    font-size: 30px;
+    padding: 5px;
+    color: #16160f;
+}
+
+#top {
+    margin-top: 30vh;
+}
+
+.cards {
+    margin: 2vh 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.material-icons {
+    float: left;
+}
+
+.card {
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.274);
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 30%;
+    height: 30vh;
+}
+
+.card:hover {
+    box-shadow: rgba(15, 14, 14, 0.418) 7px 7px 0px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.join {
+    margin-top: 10vh;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-left: 250px;
+}
